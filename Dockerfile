@@ -4,6 +4,6 @@ USER root
 
 RUN apt-get update
 
-pip install scikit-neuralnetwork
+RUN pip install scikit-neuralnetwork
 
 USER main
